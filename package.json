@@ -14,7 +14,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ueberdosis/tiptap",
-    "directory": "packages/extension-collaboration"
+    "url": "https://github.com/secondlayerco/tiptap-extension-collaboration"
   }
 }
