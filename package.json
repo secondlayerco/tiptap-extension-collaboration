@@ -1,0 +1,20 @@
+{
+  "name": "tiptap-extension-collaboration",
+  "description": "collaboration extension for tiptap",
+  "version": "napkin-1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@tiptap/core": "^2.0.0",
+    "y-prosemirror": "1.0.20"
+  },
+  "peerDependencies": {
+    "@tiptap/core": "^2.0.0",
+    "y-prosemirror": "1.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ueberdosis/tiptap",
+    "directory": "packages/extension-collaboration"
+  }
+}
