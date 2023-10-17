@@ -3,12 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [napkin-1.0.1] (2023-10-17)
+## [1.0.1-napkin] (2023-10-17)
 
 ## Updated
 - Upgraded y-prosemirror to 1.2.1
 
-## [napkin-1.0.0] (2023-10-17)
+## [1.0.0-napkin] (2023-10-17)
 
 **Note:** First version of the forked version of @tiptap/extension-collaboration.
 

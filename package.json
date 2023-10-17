@@ -1,7 +1,7 @@
 {
   "name": "tiptap-extension-collaboration",
   "description": "collaboration extension for tiptap",
-  "version": "napkin-1.0.1",
+  "version": "1.0.1-napkin",
   "type": "module",
   "main": "src/index.js",
   "devDependencies": {
