@@ -57,7 +57,7 @@ const Collaboration = Extension.create({
                 // eslint-disable-next-line
                 undoManager.restore = () => { };
             }
-            const viewRet = originalUndoPluginView(view);
+            const viewRet = originalUndoPluginView ? originalUndoPluginView(view) : undefined;
             return {
                 destroy: () => {
                     const hasUndoManSelf = undoManager.trackedOrigins.has(undoManager);
@@ -71,11 +71,16 @@ const Collaboration = Extension.create({
                         // eslint-disable-next-line
                         undoManager._observers = observers;
                     };
-                    viewRet.destroy();
+                    if (viewRet === null || viewRet === void 0 ? void 0 : viewRet.destroy) {
+                        viewRet.destroy();
+                    }
                 },
             };
         };
-        return [ySyncPlugin(fragment), yUndoPluginInstance];
+        const onFirstRender = this.options.onFirstRender;
+        const ySyncPluginOptions = onFirstRender ? { onFirstRender } : {};
+        const ySyncPluginInstance = ySyncPlugin(fragment, ySyncPluginOptions);
+        return [ySyncPluginInstance, yUndoPluginInstance];
     },
 });
 

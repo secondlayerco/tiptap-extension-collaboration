@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0-napkin] (2024-02-20)
+
+## Updated
+- Upgraded y-prosemirror to 1.2.2
+- Upgraded @tiptap/core to 2.2.3
+- Updated addProseMirrorPlugins from https://github.com/ueberdosis/tiptap/tree/develop/packages/extension-collaboration
+
+### Removed
+- Removed package-lock.json
+
 ## [1.0.1-napkin] (2023-10-17)
 
 ## Updated
