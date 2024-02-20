@@ -1,14 +1,22 @@
-# @tiptap/extension-collaboration
-[![Version](https://img.shields.io/npm/v/@tiptap/extension-collaboration.svg?label=version)](https://www.npmjs.com/package/@tiptap/extension-collaboration)
-[![Downloads](https://img.shields.io/npm/dm/@tiptap/extension-collaboration.svg)](https://npmcharts.com/compare/tiptap?minimal=true)
-[![License](https://img.shields.io/npm/l/@tiptap/extension-collaboration.svg)](https://www.npmjs.com/package/@tiptap/extension-collaboration)
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ueberdosis)
+# @secondlayerco/tiptap-extension-collaboration
 
-## Introduction
-Tiptap is a headless wrapper around [ProseMirror](https://ProseMirror.net) – a toolkit for building rich text WYSIWYG editors, which is already in use at many well-known companies such as *New York Times*, *The Guardian* or *Atlassian*.
+## Description
+Forked from [@tiptap/extension-collaboration](https://github.com/ueberdosis/tiptap/tree/develop/packages/extension-collaboration).
 
-## Official Documentation
-Documentation can be found on the [Tiptap website](https://tiptap.dev).
+### Changes from the original package
+- Removed `addKeyboardShortcuts` from the `Collaboration` class (we handle keyboard shortcuts in a different way)
+- Added `getUndoDepth` and `getRedoDepth` helpers
 
-## License
-Tiptap is open sourced software licensed under the [MIT license](https://github.com/ueberdosis/tiptap/blob/main/LICENSE.md).
+## Installation
+Add the package to your project:
+```bash
+"tiptap-extension-collaboration": "github:secondlayerco/tiptap-extension-collaboration#1.1.0-napkin",
+```
+
+## How to update the package
+- Clone [@tiptap/extension-collaboration](https://github.com/ueberdosis/tiptap/tree/develop/packages/extension-collaboration)
+- Install the dependencies (`npm i` from the root of the package and `packages/extension-collaboration`)
+- Open `dist/index.js` and compare it with the file in this package
+- If there are changes, copy them to the file in this package
+- Upgrade the dependencies in `package.json` to the latest versions
+- Increment the version in `package.json` and `CHANGELOG.md`
