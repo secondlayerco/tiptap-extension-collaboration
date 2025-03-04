@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6-napkin] (2025-03-04)
+
+## Updated
+- Upgraded y-prosemirror to 1.2.16
+- Upgraded @tiptap/core to 2.11.5
+
 ## [1.1.5-napkin] (2024-11-27)
 
 ## Updated
