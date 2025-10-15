@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0-napkin] (2025-10-15)
+
+## Updated
+- Upgraded @tiptap/core from 2.24.0 to 3.7.0 (major version upgrade)
+- Updated compatibility check to detect both 'history' and 'undoRedo' extensions (History extension was renamed to UndoRedo in v3)
+
 ## [1.1.8-napkin] (2025-07-03)
 
 ## Updated
