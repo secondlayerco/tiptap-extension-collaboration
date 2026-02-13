@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0-napkin] (2026-02-13)
+
+## Updated
+- Pull changes from tiptap/extension-collaboration@3.19.0
+
 ## [1.2.1-napkin] (2026-02-13)
 
 ## Updated
