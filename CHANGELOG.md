@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1-napkin] (2026-04-14)
+
+## Updated
+- Upgraded @tiptap/core from 3.7.0 to 3.22.3
+
 ## [1.2.1-napkin] (2026-02-13)
 
 ## Updated
